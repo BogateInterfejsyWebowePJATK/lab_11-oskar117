@@ -15,3 +15,9 @@ code {
 table td {
   border: 1px solid black;
 }
+
+section {
+  float: left;
+  border: 1px solid black;
+  height: 40em;
+}

@@ -1,11 +1,12 @@
 import React from "react";
-import RandomNumbers from "./RandomNumbers";
+import Photos from "./Photos";
+import photosData from "../data/data.json";
 
 export default function Page() {
 
   return (
     <>
-        <RandomNumbers/>
+        <Photos photos_prop={photosData}/>
     </>
   );
 }
